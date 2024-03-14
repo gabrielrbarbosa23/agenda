@@ -1,0 +1,177 @@
+body {
+  background-color: #776B5D;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  gap: 150px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  margin-top: 5px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.nav-link {
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  transition: all .2s ease-in-out;
+  margin-top: -3px;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: black;
+}
+
+#main-title {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+/* HOME */
+#contacts-table {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: white;
+}
+
+#contacts-table:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s;
+}
+
+#contacts-table thead {
+  background-color: #B0A695;
+  border-radius: 12px;
+}
+
+.col-id {
+  font-weight: bold;
+}
+
+.actions {
+  text-align: right;
+  width: 150px;
+}
+
+.actions i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.check-icon {
+  color: #1E7E34;
+}
+
+.edit-icon {
+  color: #007BFF;
+}
+
+.buttons {
+  display: flex;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.delete-icon {
+  color: #BD2130;
+}
+
+#empty-list-text {
+  text-align: center;
+}
+
+#msg {
+  color: #155724;
+  background-color: #D4EDDA;
+  border: 1px solid #C3E6CB;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* SHOW / CONTATO INDIVIDUAL */
+#view-contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#back-link-container {
+  display: block;
+  width: 500px;
+  margin: 30px auto 0;
+}
+
+#back-link {
+  border: 1px solid black;
+  color: black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#back-link:hover {
+  background-color: #EBE3D5;
+  text-decoration: none;
+}
+
+.button {
+  border: 1px solid black;
+  color: black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #776B5D;
+}
+
+.button:hover {
+  background-color: #EBE3D5;
+  text-decoration: none;
+}
+
+/* CREATE */
+#create-form,
+#edit-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: black;
+  position: fixed;
+  font-size: 15px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* MOBILE */
+@media(max-width: 480px) {
+
+  #home-link {
+    display: none;
+  }
+
+}
